@@ -12,8 +12,8 @@ from oauth import oauth
 # pass oauth request to server (use httplib.connection passed in as param) 
 # return response as a string 
 class FitBit():
-    CONSUMER_KEY    = 'ADD_YOUR_CONSUMER_KEY' 
-    CONSUMER_SECRET = 'ADD_YOUR_CONSUMER_SECRET' 
+    CONSUMER_KEY    = 'ebbd6f22f4444e67817db51c7ff8c100' 
+    CONSUMER_SECRET = '516cb73b15624dd4a4f64d925f918c74' 
     SERVER = 'api.fitbit.com' 
     REQUEST_TOKEN_URL = 'http://%s/oauth/request_token' % SERVER 
     ACCESS_TOKEN_URL = 'http://%s/oauth/access_token' % SERVER 
