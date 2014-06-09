@@ -19,6 +19,8 @@ Notes:
    instead.
 '''
 
+#unauth_client = fitbit.Fitbit('ebbd6f22f4444e67817db51c7ff8c100', '516cb73b15624dd4a4f64d925f918c74')
+
 import os, httplib
 
 # Install oauth for python. On Ubuntu run: sudo apt-get install python-oauth
