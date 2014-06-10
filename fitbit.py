@@ -6,8 +6,8 @@ This library provides a wrapper to the FitBit API and does not provide storage o
 Most of the code has been adapted from: https://groups.google.com/group/fitbit-api/browse_thread/thread/0a45d0ebed3ebccb
 """
 import os, httplib 
-from oauth import oauth 
-
+#from oauth import oauth 
+import oauth
 
 # pass oauth request to server (use httplib.connection passed in as param) 
 # return response as a string 
